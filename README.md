@@ -2,7 +2,7 @@
 
 ## Setup
 
-Build it yourself or download a copy from [releases](TODO:URL).
+Build it yourself or download a copy from [releases](https://github.com/ehwuts/UnlimitedCactusCane/releases/).
 
 ## License
 
