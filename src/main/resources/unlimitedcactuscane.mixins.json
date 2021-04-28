@@ -4,8 +4,7 @@
   "package": "yeoldesoupe.unlimitedcactuscane.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-	"CactusBlockMixin",
-	"SugarCaneBlockMixin"
+    "TallboyVegetationMixin"
   ],
   "client": [
     
