@@ -2,14 +2,13 @@ package yeoldesoupe.unlimitedcactuscane.mixin;
 
 import net.minecraft.block.SugarCaneBlock;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.ModifyConstant;
+import org.spongepowered.asm.mixin.injection.Constant;
 
 @Mixin(SugarCaneBlock.class)
 public class SugarCaneBlockMixin {
-	@Inject(at = @At("HEAD"), method = "randomTick")
-	public void randomTick(CallbackInfo info) {
-		System.out.println("Sugar Cane!");
+	@ModifyConstant(method = "randomTick", constant = @Constant(intValue = 3))
+	private int maxint(int x) {
+		return Integer.MAX_VALUE;
 	}
 }
