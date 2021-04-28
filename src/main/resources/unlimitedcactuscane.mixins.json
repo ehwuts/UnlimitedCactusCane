@@ -6,9 +6,6 @@
   "mixins": [
     "TallboyVegetationMixin"
   ],
-  "client": [
-    
-  ],
   "injectors": {
     "defaultRequire": 1
   }

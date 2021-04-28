@@ -17,11 +17,7 @@
   "icon": "assets/unlimitedcactuscane/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      
-    ]
-  },
+  "entrypoints": {},
   "mixins": [
     "unlimitedcactuscane.mixins.json"
   ],
@@ -32,6 +28,6 @@
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "another-mod": "*"
+    "flamingo": "*"
   }
 }
