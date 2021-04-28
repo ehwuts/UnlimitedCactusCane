@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "unlimitedcactuscane",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Unlimited Cactus Cane",
+  "description": "Removes the plant height limit from cactus and sugar cane.",
   "authors": [
-    "Me!"
+    "ehwuts matsu"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/ehwuts/",
+    "sources": "https://github.com/ehwuts/UnlimitedCactusCane"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/unlimitedcactuscane/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "yeoldesoupe.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "unlimitedcactuscane.mixins.json"
   ],
 
   "depends": {

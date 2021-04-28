@@ -1,9 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "yeoldesoupe.unlimitedcactuscane.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+	"CactusBlockMixin",
+	"SugarCaneBlockMixin"
   ],
   "client": [
     "ExampleMixin"
